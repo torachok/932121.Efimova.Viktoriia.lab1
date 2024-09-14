@@ -1,0 +1,91 @@
+body
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer
+{
+    background-color: green;
+    text-align: center;
+}
+
+.content
+{
+    margin: 0;
+    padding: 20px;
+    background-color: blue;
+    grid-column: 2/3;
+}
+
+.roundBox
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 10% 0;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.centered
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+a
+{
+    display: block;
+    color:red;
+    text-align: center;
+}
+
+table
+{
+    border: 2px solid white;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+tr
+{
+    vertical-align: bottom;
+}
+
+tr,td
+{
+    border: 2px solid white;
+}
+
+#pic
+{
+    margin-top: 10px;
+    display: block;
+}
+
+.bottomPart
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#pic
+{
+    margin-left:auto;
+}
+
+.noDecorate
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+h3
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
